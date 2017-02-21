@@ -1,0 +1,364 @@
+/*reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, menu, nav, output, ruby, section,
+summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0;}
+
+/* HTML5 display-role reset for older browsers */
+/* endzeit_____ */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section, main {display: block;}
+
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+img{max-width: 100%; height: auto;}
+a{text-decoration: underline;}
+a:hover{cursor: pointer;}
+/* michael-k90 */
+*::-webkit-input-placeholder {color: #a9a9a9; opacity: 1;}
+*:-moz-placeholder {color: #a9a9a9; opacity: 1;}
+*::-moz-placeholder {color: #a9a9a9; opacity: 1;}
+*:-ms-input-placeholder {color: #a9a9a9; opacity: 1;}
+*{margin: 0; padding: 0;}
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+button,input{outline: none;}
+button {cursor:pointer;}
+/* endzeit_____ */
+.hidden{display: none;}
+.clear{clear: both;height: 0px;}
+.invis{display: none;}
+.left{float: left;}
+.right{float: right;}
+.center{text-align: center;}
+.clearfix:after{content: '';display: block;clear: both;}
+
+html{
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.clearfix:after{
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.opacity-75{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+}
+.shadow-text{
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.6);
+}
+.shadow-55{
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow:    0px 1px 2px 0px rgba(0, 0, 0, 0.55);
+    box-shadow:         0px 1px 2px 0px rgba(0, 0, 0, 0.55);
+}
+.border-4{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.animate {
+    -webkit-transition: all 0.3s;
+    -moz-transition:    all 0.3s;
+    -o-transition:      all 0.3s;
+    -ms-transition:     all 0.3s;
+    transition:         all 0.3s;
+}
+/* michael-k90 */
+h1,h2,h3,h4,h5,h6{font-family: 'Open Sans Condensed', sans-serif; font-weight: 700;}
+b, strong{font-family: 'Open Sans Condensed', sans-serif; font-weight: 700;}
+i{font-style: italic;}
+
+.f-normal{font-weight: 400;}
+.mob-vis{display: none;}
+body{
+    position: relative;
+    width: 100%;
+    min-width: 960px;
+    padding: 0px;
+    margin: 0px auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #000;
+    overflow-x:hidden;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+.section, .wrap, .container{
+    position: relative;
+}
+.section{
+    width: 100%;
+}
+.container{
+    width: 960px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.button-m{
+    display: block;
+    width: 342px;
+    height: 72px;
+    border: 0;
+    text-decoration: none;
+    line-height: 70px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+    border-bottom: 1px solid #ffac00;
+   	box-shadow: 0px 5px 0px #d06800;
+	background: #ffa700; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffa700 0%, #ff8200 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffa700 0%,#ff8200 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffa700 0%,#ff8200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa700', endColorstr='#ff8200',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;  
+}
+.button-m:hover{
+    box-shadow: none;
+}
+form>div{
+    position: relative;
+    padding-bottom: 15px;
+}
+form>div:last-child{
+    padding-bottom: 0;
+}
+form input{
+    display: block;
+    border: 0;
+    width: 342px;
+    height: 70px;
+    margin: 0 auto 20px auto;
+    background: #fff;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+form input:focus{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+}
+h1{
+    line-height: 1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5.4px;
+    margin: 0px 0px 0px -7px;
+}
+h2{
+	position: relative;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 0.75em;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3{
+	line-height: 1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5.2px;
+}
+h3.zag{
+    font-family: "Avenir Next Cyr W00 Bold";
+    font-size: 20px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.zag .sub-zag{
+    font-family: "Avenir Next Cyr W00 Regular";
+    font-size: 18px;
+    color: #555;
+}
+.zag:after{
+    content: '';
+    display: block;
+    width: 260px;
+    height: 2px;
+    margin: 30px auto 0;
+    background: #000;
+}
+.zag .col-2{
+    color: #235569;
+}
+.centerBut{
+	margin: 0 auto;
+}
+.lineprice:after{
+	content: "";
+	background: #fff;
+	position: relative;
+	display: block;
+	width: 85px;
+	height: 2px;
+    top: -11px;
+}
+.linepriceH:after{
+	content: "";
+	background: #fff;
+	position: relative;
+	display: block;
+	width: 85px;
+	height: 2px;
+    top: -16px;
+}
+.single-item{
+	width: 780px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+}
+/* owmen17 */
+h4{
+    font: 700 18px 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.countbox{
+    margin: 0 auto;
+    padding: 10px 0 50px;
+    line-height: 1.2; 
+    font-size: 30px; 
+    width: 268px; 
+    text-align: center;
+    color: #235569;
+}
+
+.countbox
+{
+	color: #fff;
+	font-size:24px;
+	height: 72px;
+	line-height: 57px;
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+	margin: 4px 0px;
+}
+.countbox .countbox-num
+{
+	float: left;
+	background: url('../images/timer-bg.png')no-repeat;
+	min-height: 82px;
+	color: #fff;
+	width: 82px;
+}
+.countbox .countbox-space
+{
+	float: left;
+	height: 62px;
+	width: 7px;
+}
+.countbox-hours1,.countbox-mins1,.countbox-secs1,.countbox-hours2,.countbox-mins2,.countbox-secs2
+{
+	background-repeat: no-repeat;
+	float: left;
+	margin: -1px 0 0 -1px;
+	text-align: center;
+	width: 5px;
+	display: block;
+	z-index: 1;
+	padding: 17px 0px 0px 15px;
+	font: 700 24px 'Open Sans Condensed', sans-serif;
+}
+.countbox-hours1,.countbox-mins1,.countbox-secs1{
+	padding: 17px 0px 0px 28px;
+}
+.countbox-hours-text,.countbox-mins-text,.countbox-secs-text
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 20px !important;
+	margin-top: 14px;
+	position: absolute;
+	width: 54px;
+	color: #fff;
+}
+.timer-title{
+	margin-top: -41px;
+}
+.timer-title div{
+	float: left;
+	font: 300 14px 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0px 23px;
+}
+.timer-title div:nth-child(2){
+	padding: 0px 34px;
+}
+.timer-title div:nth-child(3){
+	padding: 0px 21px;
+}
+
+.star5{
+	width: 100%;
+}
+.star45{
+	width: 90%;
+}
+.star4{
+	width: 80%;
+}
+.star35{
+	width: 70%;
+}
+.star3{
+	width: 60%;
+}
+/* owmen17 */
+@media screen and (max-width: 959px){
+    h2.zag{
+        font-size: 46px;
+        line-height: 0.75em;
+    }
+    .zag .sub-zag{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 639px){
+    h2.zag{
+        font-size: 40px;
+        line-height: 1.1em;
+    }
+    .zag .sub-zag{
+        display: inline-block;
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+}
